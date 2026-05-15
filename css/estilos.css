@@ -27,7 +27,7 @@ header p {
 
 header {
     box-sizing: border-box;   
-    width: 70%;
+    width: 80%;
     max-width: 1820px;
     margin: 0 auto;          
     padding: 20px;
@@ -45,6 +45,17 @@ nav ul li {
     display: inline-block; 
     padding: 20px;         
 }
+ 
+nav ul li:hover a {
+    color: rgb(12, 54, 116);         
+    text-decoration: none; 
+}
+
+nav ul li a {
+    color: white;         
+    text-decoration: none; 
+} 
+
 
 /*estilos article*/
 
@@ -58,7 +69,7 @@ h2 {
 
 article {
     box-sizing: border-box;   
-    width: 70%;
+    width: 80%;
     max-width: 1820px;
     margin: 0 auto;          
     padding: 20px;
@@ -68,14 +79,20 @@ article {
 img {
     display: block;
     margin: 0 auto;
-    width: 70%;
+    width: 80%;
+}
+
+iframe {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
 }
 
 /*estilos footer*/
 
 footer {
     box-sizing: border-box;   
-    width: 70%;
+    width: 80%;
     max-width: 1820px;
     margin: 0 auto;          
     padding: 20px;
