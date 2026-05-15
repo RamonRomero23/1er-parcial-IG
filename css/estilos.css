@@ -1,93 +1,86 @@
-/*estilos body*/
-
+/* estilos body */
 body {
     background-image: url(../img/fondo.png);
     background-size: cover;
     background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
 }
 
-/*estilos header*/
-
-h1  {
+/* estilos header */
+h1 {
     font-family: 'Abel', sans-serif;
-    font-size: 70px;
+    font-size: 4rem; /* antes 70px */
     color: white;
     text-align: center;
-
 }
 
 header p {
     font-family: 'Abel', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem; /* antes 20px */
     color: white;
     text-align: center;
-
 }
-
 
 header {
     box-sizing: border-box;   
     width: 80%;
-    max-width: 1820px;
-    height: auto;
+    max-width: 1200px; /* más estándar que 1820px */
     margin: 0 auto;          
-    padding: 5px;
+    padding: 0.5rem;
     background-color: #155DFC;
 }
 
 nav ul {
     list-style: none;     
-    margin: 5px;            
+    margin: 0;            
+    padding: 0;
     text-align: center;   
 }
 
 nav ul li {
     font-family: 'Abel', sans-serif;
     display: inline-block; 
-    padding: 5px;   
-    margin: 50px;      
-}
- 
-nav ul li:hover a {
-    color: rgb(7, 25, 53);         
-    text-decoration: none; 
+    padding: 0.5rem;   
+    margin: 0 2rem; /* antes 50px */
 }
 
 nav ul li a {
     color: white;         
     text-decoration: none; 
-} 
-
-
-/*estilos article*/
-
-h2 {
-    font-family: 'Abel', sans-serif;
-    font-size: 30px;
-    color: black;
-    text-align: center;
-
+    font-size: 1.25rem;
 }
 
+nav ul li a:hover {
+    color: #FFD700; /* contraste más claro en hover */
+    text-decoration: underline;
+}
+
+/* estilos article */
+h2 {
+    font-family: 'Abel', sans-serif;
+    font-size: 2rem; /* antes 30px */
+    color: black;
+    text-align: center;
+}
 
 article {
     box-sizing: border-box;   
     width: 80%;
-    max-width: 1820px;
+    max-width: 1200px;
     margin: 0 auto;          
-    padding: 20px;
+    padding: 2rem;
     background-color: aliceblue;
 }
 
 p {
     display: block;
-    margin: 20px auto;
+    margin: 1.25rem auto;
     width: 90%;
     font-family: 'Abel', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem; /* antes 20px */
     color: black;
     text-align: left;
-
 }
 
 strong {
@@ -95,77 +88,68 @@ strong {
 }
 
 section ul {     
-    margin: 5px;            
+    margin: 0;            
+    padding: 0;
     text-align: left;   
 }
 
 section ul li {
     font-family: 'Abel', sans-serif;
-    font-size: 30px;
+    font-size: 1.5rem; /* antes 30px */
     list-style: square;
     display: block; 
-    padding: 5px;   
-    margin: 20px;      
+    padding: 0.5rem;   
+    margin: 1rem 0;      
 }
 
 img {
     display: block;
-    margin: 0 auto;
-    width: 300px;
+    margin: 1rem auto;
+    max-width: 100%; /* responsivo */
     height: auto;
 }
 
-#home {
-    width: 80%;
-    height: auto;
-}
-
-#trayectoria {
-    width: 80%;
-    height: auto;
-}
 iframe {
     display: block;
-    margin: 0 auto;
-    width: 80%;
+    margin: 1rem auto;
+    width: 100%;       /* antes fijo */
+    max-width: 80%;
+    aspect-ratio: 16/9; /* mantiene proporción */
 }
 
-/*estilos Home*/
-
+/* estilos Home */
 #cita {
     font-family: 'Abel', sans-serif;
     background-color: aquamarine;
-    font-size: 30px;
+    font-size: 1.875rem; /* antes 30px */
     color: white;
-    margin-top: 20px;
+    margin-top: 1.25rem;
+    padding: 1rem;
 }
 
 #cita p {
-    font-family: amarante, static;
-    padding: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     text-align: center;
 }
 
-
-/*estilos footer*/
-
+/* estilos footer */
 footer {
     box-sizing: border-box;   
     width: 80%;
-    max-width: 1820px;
+    max-width: 1200px;
     margin: 0 auto;          
-    padding: 20px;
+    padding: 1.25rem;
     background-color: #155DFC;
 }
 
 footer p {
     font-family: 'Abel', sans-serif;
-    font-size: 20px;
+    font-size: 1.25rem;
     color: white;
+    text-align: center;
 }
 
 footer p a {
-    color: rgb(7, 25, 53);         
+    color: #FFD700; /* contraste mejorado */
     text-decoration: none; 
-}
-    
+}   
