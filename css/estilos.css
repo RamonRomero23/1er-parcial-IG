@@ -9,15 +9,15 @@ body {
 /*estilos header*/
 
 h1  {
-    font-family: 'Lato', sans-serif;
-    font-size: 50px;
+    font-family: 'Abel', sans-serif;
+    font-size: 70px;
     color: white;
     text-align: center;
 
 }
 
 header p {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Abel', sans-serif;
     font-size: 20px;
     color: white;
     text-align: center;
@@ -29,25 +29,27 @@ header {
     box-sizing: border-box;   
     width: 80%;
     max-width: 1820px;
+    height: auto;
     margin: 0 auto;          
-    padding: 20px;
+    padding: 5px;
     background-color: #155DFC;
 }
 
 nav ul {
     list-style: none;     
-    padding: 0;           
-    margin: 0;            
+    margin: 5px;            
     text-align: center;   
 }
 
 nav ul li {
+    font-family: 'Abel', sans-serif;
     display: inline-block; 
-    padding: 20px;         
+    padding: 5px;   
+    margin: 50px;      
 }
  
 nav ul li:hover a {
-    color: rgb(12, 54, 116);         
+    color: rgb(7, 25, 53);         
     text-decoration: none; 
 }
 
@@ -60,7 +62,8 @@ nav ul li a {
 /*estilos article*/
 
 h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
     color: black;
     text-align: center;
 
@@ -76,17 +79,73 @@ article {
     background-color: aliceblue;
 }
 
+p {
+    display: block;
+    margin: 20px auto;
+    width: 90%;
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: black;
+    text-align: left;
+
+}
+
+strong {
+    color: #155DFC;
+}
+
+section ul {     
+    margin: 5px;            
+    text-align: left;   
+}
+
+section ul li {
+    font-family: 'Abel', sans-serif;
+    font-size: 30px;
+    list-style: square;
+    display: block; 
+    padding: 5px;   
+    margin: 20px;      
+}
+
 img {
     display: block;
     margin: 0 auto;
-    width: 80%;
+    width: 300px;
+    height: auto;
 }
 
+#home {
+    width: 80%;
+    height: auto;
+}
+
+#trayectoria {
+    width: 80%;
+    height: auto;
+}
 iframe {
     display: block;
     margin: 0 auto;
     width: 80%;
 }
+
+/*estilos Home*/
+
+#cita {
+    font-family: 'Abel', sans-serif;
+    background-color: aquamarine;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+}
+
+#cita p {
+    font-family: amarante, static;
+    padding: 10px;
+    text-align: center;
+}
+
 
 /*estilos footer*/
 
@@ -97,5 +156,16 @@ footer {
     margin: 0 auto;          
     padding: 20px;
     background-color: #155DFC;
+}
+
+footer p {
+    font-family: 'Abel', sans-serif;
+    font-size: 20px;
+    color: white;
+}
+
+footer p a {
+    color: rgb(7, 25, 53);         
+    text-decoration: none; 
 }
     
